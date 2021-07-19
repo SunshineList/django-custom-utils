@@ -38,7 +38,7 @@ if sys.argv[-1] == 'publish':
 setup(
     name='drf-custom-utils',
     version='0.10.0',
-    url='https://github.com/blackjackgg/drf-with-history-track',
+    url='https://github.com/SunshineList/django-custom-utils',
     license='MIT',
     description=' drf mixin 扩展 以及其它封装组件',
     long_description=read('README.md'),
