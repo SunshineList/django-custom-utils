@@ -1,0 +1,100 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="221" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ourVersions">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.6" />
+            <item index="2" class="java.lang.String" itemvalue="3.7" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="71">
+            <item index="0" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="1" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="2" class="java.lang.String" itemvalue="PyMuPDF" />
+            <item index="3" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="4" class="java.lang.String" itemvalue="django-daterange-filter" />
+            <item index="5" class="java.lang.String" itemvalue="pyBarcode" />
+            <item index="6" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="7" class="java.lang.String" itemvalue="tls-sig-api" />
+            <item index="8" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="9" class="java.lang.String" itemvalue="redis" />
+            <item index="10" class="java.lang.String" itemvalue="coreschema" />
+            <item index="11" class="java.lang.String" itemvalue="Authlib" />
+            <item index="12" class="java.lang.String" itemvalue="captcha" />
+            <item index="13" class="java.lang.String" itemvalue="pymssql" />
+            <item index="14" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="15" class="java.lang.String" itemvalue="gevent" />
+            <item index="16" class="java.lang.String" itemvalue="django-extra-fields" />
+            <item index="17" class="java.lang.String" itemvalue="Markdown" />
+            <item index="18" class="java.lang.String" itemvalue="xlrd" />
+            <item index="19" class="java.lang.String" itemvalue="django-simple-history" />
+            <item index="20" class="java.lang.String" itemvalue="weixin-python" />
+            <item index="21" class="java.lang.String" itemvalue="tablib" />
+            <item index="22" class="java.lang.String" itemvalue="django-import-export" />
+            <item index="23" class="java.lang.String" itemvalue="cryptography" />
+            <item index="24" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="25" class="java.lang.String" itemvalue="simplejson" />
+            <item index="26" class="java.lang.String" itemvalue="django-filter" />
+            <item index="27" class="java.lang.String" itemvalue="ipaddress" />
+            <item index="28" class="java.lang.String" itemvalue="rsa" />
+            <item index="29" class="java.lang.String" itemvalue="jsonfield" />
+            <item index="30" class="java.lang.String" itemvalue="qrcode" />
+            <item index="31" class="java.lang.String" itemvalue="cffi" />
+            <item index="32" class="java.lang.String" itemvalue="cx-Oracle" />
+            <item index="33" class="java.lang.String" itemvalue="crcmod" />
+            <item index="34" class="java.lang.String" itemvalue="requests" />
+            <item index="35" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="36" class="java.lang.String" itemvalue="websocket-client" />
+            <item index="37" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="38" class="java.lang.String" itemvalue="gevent-websocket" />
+            <item index="39" class="java.lang.String" itemvalue="crc16" />
+            <item index="40" class="java.lang.String" itemvalue="django-dynamic-raw-id" />
+            <item index="41" class="java.lang.String" itemvalue="celery" />
+            <item index="42" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="43" class="java.lang.String" itemvalue="urllib3" />
+            <item index="44" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="45" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="46" class="java.lang.String" itemvalue="django-celery" />
+            <item index="47" class="java.lang.String" itemvalue="Cython" />
+            <item index="48" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="49" class="java.lang.String" itemvalue="django-imagekit" />
+            <item index="50" class="java.lang.String" itemvalue="pymongo" />
+            <item index="51" class="java.lang.String" itemvalue="xlutils" />
+            <item index="52" class="java.lang.String" itemvalue="django-cleanup" />
+            <item index="53" class="java.lang.String" itemvalue="xlwt" />
+            <item index="54" class="java.lang.String" itemvalue="django-debug-toolbar" />
+            <item index="55" class="java.lang.String" itemvalue="dicttoxml" />
+            <item index="56" class="java.lang.String" itemvalue="chardet" />
+            <item index="57" class="java.lang.String" itemvalue="coreapi" />
+            <item index="58" class="java.lang.String" itemvalue="django-crontab" />
+            <item index="59" class="java.lang.String" itemvalue="django-ipware" />
+            <item index="60" class="java.lang.String" itemvalue="djangorestframework-xml" />
+            <item index="61" class="java.lang.String" itemvalue="Django" />
+            <item index="62" class="java.lang.String" itemvalue="wechatpy" />
+            <item index="63" class="java.lang.String" itemvalue="ruamel-yaml" />
+            <item index="64" class="java.lang.String" itemvalue="django-redis" />
+            <item index="65" class="java.lang.String" itemvalue="pilkit" />
+            <item index="66" class="java.lang.String" itemvalue="pytz" />
+            <item index="67" class="java.lang.String" itemvalue="tencentcloud-sdk-python" />
+            <item index="68" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="69" class="java.lang.String" itemvalue="unicodecsv" />
+            <item index="70" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
