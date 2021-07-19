@@ -12,15 +12,11 @@ from setuptools import find_packages, setup
 def read(f):
     return open(f, 'r', encoding='utf-8').read()
 
+path = os.path.abspath(os.path.dirname(__file__))
 
-def get_version(package):
-    """
-    Return package version as listed in `__version__` in `init.py`.
-    """
-    init_py = open(os.path.join(package, '__init__.py')).read()
+def get_version():
+    init_py = open(os.path.join(path, '__init__.py')).read()
     return re.search("__version__ = ['\"]([^'\"]+)['\"]", init_py).group(1)
-
-
 
 
 if sys.argv[-1] == 'publish':
@@ -37,7 +33,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='drf-custom-utils',
-    version='0.10.0',
+    version=get_version(),
     url='https://github.com/SunshineList/django-custom-utils',
     license='MIT',
     description=' drf mixin 扩展 以及其它封装组件',
